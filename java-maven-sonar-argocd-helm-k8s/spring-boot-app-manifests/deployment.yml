@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: ozonecustomerservice/argocd-jenkins-cicd:2
+        image: ozonecustomerservice/argocd-jenkins-cicd:replaceImageTag
         ports:
         - containerPort: 8080
